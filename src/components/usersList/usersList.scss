@@ -1,0 +1,42 @@
+.link {
+  color: #1A1A1A;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 64px repeat(6, 1fr) 181px;
+  width: 100%;
+  grid-gap: 1px;
+
+  &__heading {
+    align-items: center;
+    height: 48px;
+    background-color: #3a80ba;
+    color: #fff;
+
+    &:first-child {
+      border-top-left-radius: 8px;
+    }
+
+    &:nth-child(8) {
+      border-top-right-radius: 8px;
+    }
+  }
+
+  &__heading,
+  &__item {
+    padding: 0 24px;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  &__item {
+    padding-right: 24px;;
+    align-items: center;
+    height: 32px;
+  }
+
+  &__item_grey {
+    background-color: #f1f1f1;
+  }
+}

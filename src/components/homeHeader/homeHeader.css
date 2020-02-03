@@ -1,0 +1,63 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../icons/icon.svg") no-repeat;
+  background-position-x: 100%;
+}
+.home__container {
+  width: 1440px;
+}
+
+.header {
+  height: 655px;
+  padding: 24px 130px 0;
+  box-sizing: border-box;
+}
+.header__section {
+  display: flex;
+}
+.header__heading-block {
+  width: 586px;
+}
+.header__heading {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 46px;
+}
+.header__heading .span {
+  font-weight: 800;
+}
+.header__text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.header__link-to-users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 154px;
+  height: 56px;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 142%;
+  text-align: center;
+  color: #3a80ba;
+  margin-top: 32px;
+}
+.header__iphone {
+  box-shadow: -1px 22px 17px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  margin-left: 215px;
+  background: url("../../icons/iphon.svg");
+  width: 276px;
+  height: 558px;
+}
+
+/*# sourceMappingURL=homeHeader.css.map */

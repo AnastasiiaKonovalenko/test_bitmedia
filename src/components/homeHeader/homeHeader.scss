@@ -1,0 +1,84 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    width: 1440px;
+  }
+}
+
+.picture {
+  position: absolute;
+  width: 100vw;
+  height: 655px;
+  background: url("../../icons/icon.svg");
+  background-position-x: 95%;
+  z-index: -1;
+  top: 0;
+}
+
+.header {
+  height: 655px;
+  padding: 24px 130px 0;
+  box-sizing: border-box;
+
+  &__section {
+    display: flex;
+    position: relative;
+  }
+
+  &__heading-block {
+    width: 586px;
+  }
+
+  &__heading {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 46px;
+
+    & .span  {
+      font-weight: 800;
+    }
+  }
+
+  &__text {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 24px;
+  }
+
+  &__link-to-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 154px;
+    height: 56px;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    color: #3a80ba;
+    margin-top: 32px;
+
+    &:hover {
+      background: #255D8C;
+      color: #fff;
+      border: 1px solid #f1f1f1;
+    }
+  }
+
+  &__iphone {
+    box-shadow: -1px 22px 17px -3px rgba(0,0,0,0.25);
+    border-radius: 40px;
+    margin-left: 215px;
+    background: url("../../icons/iphon.svg");
+    width: 276px;
+    height: 558px;
+  }
+}

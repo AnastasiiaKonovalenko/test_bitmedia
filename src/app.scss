@@ -1,0 +1,32 @@
+@import "/components/users/users";
+@import "./components/usersList/usersList";
+@import "components/usersPagination/usersPagination";
+@import "./components/homeHeader/homeHeader";
+@import "./components/homeMain/homeMain";
+@import "./components/homeFooter/homeFooter";
+@import "./components/statistic/statistic";
+body,
+th,
+h1,
+h3,
+h2,
+p {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+button {
+  outline: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.invisible {
+  display: none;
+}
+

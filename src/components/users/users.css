@@ -1,0 +1,72 @@
+.section_spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  background: url("../../icons/Spinner-1s-200px.svg");
+}
+
+.main {
+  padding: 0 130px;
+}
+
+.users__header {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  background-color: #3A80BA;
+}
+.users__logo {
+  padding-left: 130px;
+}
+.users__links_block {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0 24px;
+}
+.users__links {
+  display: flex;
+}
+.users__main_page {
+  color: #ccc;
+  text-decoration: none;
+}
+.users__main_page:hover {
+  color: #3A80BA;
+}
+.users__user_statistics {
+  color: #3A80BA;
+}
+.users__links .icon {
+  padding: 0 8px;
+}
+.users__main_page link {
+  color: #ccc;
+}
+.users__user_statistics {
+  color: #3a80ba;
+}
+.users__heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1A1A1A;
+  padding-bottom: 16px;
+}
+
+.footer {
+  background-color: #3A80BA;
+  display: flex;
+  height: 57px;
+  padding: 0 130px;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+/*# sourceMappingURL=users.css.map */
