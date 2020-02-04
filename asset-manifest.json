@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a85089c.chunk.css",
+    "main.js": "/static/js/main.591eb990.chunk.js",
+    "main.js.map": "/static/js/main.591eb990.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.072b0f90.js",
+    "runtime-main.js.map": "/static/js/runtime-main.072b0f90.js.map",
+    "static/js/2.0abdc706.chunk.js": "/static/js/2.0abdc706.chunk.js",
+    "static/js/2.0abdc706.chunk.js.map": "/static/js/2.0abdc706.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ec78bb1988980bac8752306be014bbfa.js": "/precache-manifest.ec78bb1988980bac8752306be014bbfa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0a85089c.chunk.css.map": "/static/css/main.0a85089c.chunk.css.map",
+    "static/js/2.0abdc706.chunk.js.LICENSE": "/static/js/2.0abdc706.chunk.js.LICENSE",
+    "static/media/app.scss": "/static/media/mackbook.5e326211.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.072b0f90.js",
+    "static/js/2.0abdc706.chunk.js",
+    "static/css/main.0a85089c.chunk.css",
+    "static/js/main.591eb990.chunk.js"
+  ]
+}
