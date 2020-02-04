@@ -24,7 +24,7 @@ const Statistic = () => {
   const id_param = +path[2];
   const name = path[3].split('_');
 
-  const getStatistic = () => fetch('http://localhost:5000/statistic/users_statistic.json')
+  const getStatistic = () => fetch('https://obscure-temple-70239.herokuapp.com/statistic/users_statistic.json')
     .then((response) => response.json())
     .catch(() => 'Something went wrong');
 

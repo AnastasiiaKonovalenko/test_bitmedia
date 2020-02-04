@@ -29,7 +29,7 @@ const Users = () => {
   const classes = useStyles();
 
 
-  const getUsers = () => fetch(`http://localhost:5000/pagination/?page=${currentPage}&limit=${pageCount}`, { method: 'GET' })
+  const getUsers = () => fetch(`https://obscure-temple-70239.herokuapp.com/pagination/?page=${currentPage}&limit=${pageCount}`, { method: 'GET' })
     .then((response) => response.json())
     .catch(() => 'Something went wrong');
 
