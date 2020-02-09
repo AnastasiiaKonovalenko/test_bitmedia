@@ -1,15 +1,12 @@
-.main {
-  padding: 16px 130px 0;
+.main-home {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  &__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
   &__heading {
-    width: 530px;
+    max-width: 530px;
     font-size: 32px;
     line-height: 39px;
     text-align: center;
@@ -25,7 +22,7 @@
   &__text {
     font-size: 20px;
     line-height: 28px;
-    width: 780px;
+    //width: 780px;
     text-align: center;
   }
 
@@ -43,7 +40,9 @@
 }
 
 .benefits {
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
   &__item {
     padding-top: 48px;
@@ -80,21 +79,15 @@
 }
 
 .managing {
-  width: 100vw;
   display: flex;
-  justify-content: center;
-  height: 395px;
+  justify-content:space-between;
+  min-height: 395px;
   background: linear-gradient(93.19deg, #255D8B 2.29%, #3A80BA 96.79%);
-
-  &__article {
-    display: flex;
-    padding: 0 130px;
-  }
 
   &__info {
     margin-left: 25px;
     margin-top: 106px;
-    width: 540px;
+    max-width: 540px;
   }
 
   &__heading {
@@ -148,7 +141,7 @@
   align-items: center;
 
   &__heading {
-    width: 580px;
+    max-width: 580px;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
@@ -161,7 +154,7 @@
   }
 
   &__text {
-    width: 664px;
+    max-width: 664px;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -283,5 +276,73 @@
   }
 }
 
+@media screen and (max-width: 1245px) {
+  .managing {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+    &__info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 25px;
+      margin-bottom: 50px;
+    }
+  }
 
+  .benefits {
+
+    &__item {
+      width: 310px;
+    }
+  }
+
+  .packages {
+    &__item {
+      width: 280px;
+    }
+  }
+}
+
+@media screen and (max-width: 1010px){
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+
+    &__item {
+     margin-top: 20px;
+      width: 380px;
+      &:nth-child(2) {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .packages {
+    &__item {
+      width: 230px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .managing {
+     &__icon {
+       display: none;
+    }
+  }
+
+  .packages {
+    flex-direction: column;
+    align-items: center;
+
+    &__item {
+      width: 350px;
+      margin-top: 20px;
+      &:nth-child(2) {
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -5,6 +5,9 @@
 @import "./components/homeMain/homeMain";
 @import "./components/homeFooter/homeFooter";
 @import "./components/statistic/statistic";
+//* {
+//  border: 1px solid black;
+//}
 body,
 th,
 h1,
@@ -16,6 +19,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  overflow-x: hidden;
 }
 
 button {
@@ -29,4 +33,6 @@ button {
 .invisible {
   display: none;
 }
+
+
 
