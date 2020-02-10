@@ -4,12 +4,12 @@ import HomeMain from './homeMain/homeMain';
 import HomeFooter from './homeFooter/homeFooter';
 
 const Home = () => (
-  <section className="main-home">
+  <section className="home">
     <div className="picture" />
 
     <HomeHeader />
     <HomeMain />
-     <HomeFooter />
+    <HomeFooter />
   </section>
 );
 

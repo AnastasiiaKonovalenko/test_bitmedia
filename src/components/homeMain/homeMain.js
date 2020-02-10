@@ -19,37 +19,37 @@ const HomeMain = () => (
         business greatly. Learn more about our work!
     </p>
     <section className="main-home__benefits benefits">
-      <div className="benefits__item">
-        {designItem}
-        <h3 className="benefits__heading">
-            Clean Design
-        </h3>
-        <p className="benefits__text">
-            Increase sales by showing true dynamics of your website.
-        </p>
+    <div className="benefits__item">
+      {designItem}
+      <h3 className="benefits__heading">
+        Clean Design
+      </h3>
+      <p className="benefits__text">
+        Increase sales by showing true dynamics of your website.
+      </p>
 
-      </div>
+    </div>
 
-      <div className="benefits__item">
-        {secureItem}
-        <h3 className="benefits__heading">
-            Secure Data
-        </h3>
-        <p className="benefits__text">
-            Build your online store’s trust using Social Proof & Urgency.
-        </p>
-      </div>
+    <div className="benefits__item">
+      {secureItem}
+      <h3 className="benefits__heading">
+        Secure Data
+      </h3>
+      <p className="benefits__text">
+        Build your online store’s trust using Social Proof & Urgency.
+      </p>
+    </div>
 
-      <div className="benefits__item">
-        {retinaItem}
-        <h3 className="benefits__heading">
-            Retina Ready
-        </h3>
-        <p className="benefits__text">
-            Realize importance of social proof in customer’s purchase decision.
-        </p>
-      </div>
-    </section>
+    <div className="benefits__item">
+      {retinaItem}
+      <h3 className="benefits__heading">
+        Retina Ready
+      </h3>
+      <p className="benefits__text">
+        Realize importance of social proof in customer’s purchase decision.
+      </p>
+    </div>
+  </section>
 
     <section className="managing main-home__managing">
       <div className="managing__info">
@@ -82,7 +82,7 @@ const HomeMain = () => (
       <h2 className="price__heading">
         <span>Afforadble Pricing and Packages</span>
         {' '}
-     choose
+        choose
               your best one
       </h2>
       <p className="price__text">
