@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c699bce2001f810782b4dd55b3eda982",
+    "revision": "6e7c02d94f68448ca170caf81a7e3bdb",
     "url": "/test_bitmedia/index.html"
   },
   {
-    "revision": "daf7d881e435a17dad22",
-    "url": "/test_bitmedia/static/css/main.8db81a2a.chunk.css"
+    "revision": "89ace9514341c9844358",
+    "url": "/test_bitmedia/static/css/main.7569755e.chunk.css"
   },
   {
-    "revision": "f980b380ef9bea927f96",
-    "url": "/test_bitmedia/static/js/2.0abdc706.chunk.js"
+    "revision": "271b5e118d9c3ca81bdc",
+    "url": "/test_bitmedia/static/js/2.44f6c32d.chunk.js"
   },
   {
     "revision": "6dbd9e7d4b65b27382d6cb0964c77a31",
-    "url": "/test_bitmedia/static/js/2.0abdc706.chunk.js.LICENSE"
+    "url": "/test_bitmedia/static/js/2.44f6c32d.chunk.js.LICENSE"
   },
   {
-    "revision": "daf7d881e435a17dad22",
-    "url": "/test_bitmedia/static/js/main.dc1b4b7d.chunk.js"
+    "revision": "89ace9514341c9844358",
+    "url": "/test_bitmedia/static/js/main.c14d34dd.chunk.js"
   },
   {
     "revision": "de669105b08be12335c1",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test_bitmedia/static/media/iphon.0676b50e.svg"
   },
   {
-    "revision": "5e326211a5119b0f84d51394f064b4d6",
-    "url": "/test_bitmedia/static/media/mackbook.5e326211.svg"
+    "revision": "cd5f3f2d61eb985ba1c8d3f1320257d5",
+    "url": "/test_bitmedia/static/media/mackbook.cd5f3f2d.svg"
   }
 ]);
